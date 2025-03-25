@@ -1,5 +1,21 @@
+import styles from './App.module.css';
+import './global.css';
+
+import { Header } from './components/Header';
+import { Post } from './components/Post';
+import { Sidebar } from './components/Sidebar';
+
 export function App() {
   return (
-    <h1>Hello, World!</h1>
+    <div>
+      <Header />
+
+      <div className={styles.wrapper}>
+        <Sidebar />
+        <main>
+          <Post />
+        </main>
+      </div>
+    </div>
   )
 }
