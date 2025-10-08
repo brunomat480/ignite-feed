@@ -13,7 +13,7 @@
 
 Clone o repositório:
 ```bash
-git clone https://github.com/brunojosematias/todo-list.git
+git clone https://github.com/brunomat480/ignite-feed.git
 ```
 
 Baixe as dependencias:
